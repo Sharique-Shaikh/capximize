@@ -3,8 +3,8 @@
       <div class="equal-padding-T equal-padding-B">
          <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-               <div class="footerabout">
-                  <h2>CAPXIMIZE INDIA PVT. LTD.</h2>
+               <div class="footerabout externalLinks">
+                  <h4 class="mb-2">CAPXIMIZE INDIA PVT. LTD.</h4>
                   <p>Global Unification of the Manufacturing Sector</p>
                </div>
             </div>
@@ -13,10 +13,11 @@
                   <h4>Company</h4>
                   <ul>
                      <li><a href="">Home</a></li>
-                     <li><a href="">About Us</a></li>
-                     <li><a href="">How It Works</a></li>
-                     <li><a href="">Blog & Insignts</a></li>
-                     <li><a href="">Contact Us</a></li>
+                     <li><a href="about">About Us</a></li>
+                     <li><a href="how-it-works">How It Works</a></li>
+                     <!-- <li><a href="">Blog & Insignts</a></li> -->
+                     <li><a href="career">Careers</a></li>
+                     <li><a href="contactus">Contact Us</a></li>
                   </ul>
                </div>
             </div>
@@ -26,8 +27,9 @@
                   <ul>
                      <li><a href="">Sign Up</a></li>
                      <li><a href="">Login</a></li>
-                     <li><a href="">Careers</a></li>
-                     <li><a href="">Terms & Conditions</a></li>
+                     <li><a href="assets/pdf/tnc.pdf" target="_blank">Terms & Conditions</a></li>
+                     <li><a href="assets/pdf/policy.pdf" target="_blank">Privacy Policy</a></li>
+
                   </ul>
                </div>
             </div>
