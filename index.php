@@ -30,14 +30,14 @@
                   </div>
                   <div class="marketplace-wrap mt-5">
                      <div class="marketbox-wrap">
-                        <div class="bg-light-color1 marketbox">
+                        <div class="bg-light-color marketbox">
                            <h4>Capximizer</h4>
                            <p>As a Capximizer, you would have available manufacturing capacity in your manufacturing units that can produce more than what your business presently needs</p>
                         </div>
                      </div>
                      <!-- <div class="handshake"><img src="assets/images/hand.png" alt=""></div> -->
                      <div class="marketbox-wrap">
-                        <div class="bg-light-color1 marketbox">
+                        <div class="bg-light-color marketbox">
                            <h4>Capximizee</h4>
                            <p>As a Capximzee, you can be located anywhere in the world and are looking for capacities for your business requirement</p>
                         </div>
@@ -80,6 +80,86 @@
                </div>
             </div>
          </section>
+
+		 <section class="opportunity-container bg-dark-color">
+		 <div class="container">
+		 <div class="equal-padding-T equal-padding-B">
+
+		 <div class="sectionHeading text-center pb-5">
+				 <div class="minHeading pb-2">
+					 <h6 class="text-white">THE OPPORTUNITY</h6>
+				 </div>
+				 <div class="bigHeading pb-3">
+					 <h2>Indian Sectoral Growth For Global Partnerships</h2>
+				 </div>
+             </div>
+
+			 <div class="opportunity-main">
+				 <div class="main-items row gy-5 d-flex justify-content-center">
+					 <div class="col-md-4">
+					 <div class="item ">
+						 <img src="assets/images/data-1.png" alt="">
+						 <h3>Electrical & Electronics</h3>
+						 <div class="footer-data">
+							 <div class="money-data"><span>FY 2019 </span><br/><b>$215Bn</b></div>
+							 <img src="assets/images/arrow-1.png" alt="">
+							 <div class="money-data"><span>FY 2025 </span><br/><b>$540Bn</b></div>
+						 </div>
+					 </div>
+					 </div>
+					 <div class="col-md-4">
+					 <div class="item">
+					 <img src="assets/images/data-2.png" alt="">
+						 <h3>Pharmaceuticals</h3>
+						 <div class="footer-data">
+							 <div class="money-data"><span>FY 2021 </span><br/><b>$41Bn</b></div>
+							 <img src="assets/images/arrow-1.png" alt="">
+							 <div class="money-data"><span>FY 2025 </span><br/><b>$65Bn</b></div>
+						 </div>
+					 </div>
+					 </div>
+					 <div class="col-md-4">
+					 <div class="item">
+					 <img src="assets/images/data-3.png" alt="">
+						 <h3>Auto-Components</h3>
+						 <div class="footer-data">
+							 <div class="money-data"><span>FY 2020 </span><br/><b>$49Bn</b></div>
+							 <img src="assets/images/arrow-1.png" alt="">
+							 <div class="money-data"><span>FY 2026 </span><br/><b>$200Bn</b></div>
+						 </div>
+					 </div>
+					 </div>
+					 <div class="col-md-4">
+					 <div class="item">
+					 <img src="assets/images/data-4.png" alt="">
+						 <h3>Specialty Chemicals</h3>
+						 <div class="footer-data">
+							 <div class="money-data"><span>FY 2021 </span><br/><b>$213Bn</b></div>
+							 <img src="assets/images/arrow-1.png" alt="">
+							 <div class="money-data"><span>FY 2025 </span><br/><b>$304Bn</b></div>
+						 </div>
+					 </div>
+					 </div>
+					 <div class="col-md-4">
+					 <div class="item">
+					 <img src="assets/images/data-5.png" alt="">
+						 <h3>Textiles</h3>
+						 <div class="footer-data">
+							 <div class="money-data"><span>FY 2020 </span><br/><b>$150Bn</b></div>
+							 <img src="assets/images/arrow-1.png" alt="">
+							 <div class="money-data"><span>FY 2025 </span><br/><b>$220Bn</b></div>
+						 </div>
+					 </div>
+					 </div>
+					 
+				 </div>
+			 </div>
+			 <p class="miniInfo text-center pt-5 text-white"><span>Sources : RBI, Trading Economics<span></p>
+
+		 </div>
+		 </div>
+	 </section>
+
          <section class="how-its-works-container">
             <div class="container">
                <div class="equal-padding-T equal-padding-B">
@@ -121,6 +201,9 @@
                         </li>
                      </ul>
                   </div>
+				  <div class="pt-4 text-center">
+						<p><strong><a href="">Register Now</a> to grow your business with new global opportunities</strong></p>
+                     </div>
                </div>
             </div>
          </section>
@@ -136,7 +219,7 @@
                      </div>
                   </div>
                   <div class="GlobalWrap text-center">
-                     <div class="worldMap text-center"><img src="assets/images/global-map.png" alt=""></div>
+                     <div class="worldMap text-center pt-4 pb-4"><img src="assets/images/global-map.png" alt=""></div>
                      <ul>
                         <li>
                            <img src="assets/images/japan.png" alt="">
@@ -167,7 +250,7 @@
                         <p><strong>~2% increase in capacity utilisation will add ~$8Bn VGA with no additional capital requirement <br />With no extra capital infusion</strong></p>
                         <p class="blueStrip mt-3 mb-3">India has the tremendous potential of growth with more than 30% of capacities available for utilization
                         </p>
-                        <p><span>Sources : RBI, Trading Economics<span></p>
+                        <p class="miniInfo"><span>Sources : RBI, Trading Economics<span></p>
                      </div>
                   </div>
                </div>
@@ -317,7 +400,7 @@
          </section>
          <section>
             <div class="">
-               <div class="equal-padding-T equal-padding-B">
+               <div class="equal-padding-T">
                   <div class="">
                      <div class="owl-carousel owl-theme testimonialSlider">
                         <div class="item">
@@ -349,6 +432,11 @@
                </div>
             </div>
          </section>
+
+
+
+
+		 
       </main>
       <?php include('assets/includes/footer.php'); ?>
       <?php include('assets/includes/footers-links.php'); ?>
