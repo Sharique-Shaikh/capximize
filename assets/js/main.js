@@ -13,4 +13,30 @@ $('.testimonialSlider').owlCarousel({
             items:1,
         }
     }
-})
+});
+
+$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+    if (scroll >= 200) {
+        //clearHeader, not clearheader - caps H
+        $(".header-menu").addClass("activeheadermenu");
+    }
+    else {
+        $(".header-menu").removeClass("activeheadermenu");
+    }
+});
+
+$(function() { // Onload
+    $(".menuOpen").click(function() {
+      $(".menuClosed").show();
+      $(".menuOpen").hide();
+      $("#mobilemenu").fadeIn();
+    });
+  
+    $(".menuClosed").click(function() {
+      $(".menuClosed").hide();
+      $(".menuOpen").show();
+      $("#mobilemenu").fadeOut();
+    });
+  
+  });

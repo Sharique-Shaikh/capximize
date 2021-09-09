@@ -265,7 +265,10 @@
                      </div>
                   </div>
                   <div class="echo-partners-wrap text-center">
-                     <div><img src="assets/images/echo-partners.png" alt=""></div>
+                     <div>
+						 <img src="assets/images/echo-partners.png" alt="" class="echo-desktop">
+						 <img src="assets/images/echo-partners-mobile.png" alt="" class="echo-mobile w-100 d-none">
+						</div>
                      <div class="pt-4">
                         <p><strong>To become a part of the Capximize Ecosystem - <a href="">Start here</a></strong></p>
                      </div>
@@ -398,6 +401,27 @@
                </div>
             </div>
          </section>
+		 <section>
+            <div class="container">
+               <div class="equal-padding-T equal-padding-B">
+                  <div class="sectionHeading text-center">
+				  <div class="minHeading">
+                        <h6>BEST-IN-CLASS TECHNOLOGY</h6>
+                     </div>
+                     <div class="bigHeading pb-3">
+                        <h2>Platform Features</h2>
+                     </div>
+                  </div>
+                  <div class="echo-partners-wrap text-center">
+                     <div>
+						 <img src="assets/images/platform.png" alt="" style="width:700px" class="echo-desktop">
+						 <img src="assets/images/platform-mobile.png" alt="" class="echo-mobile d-none">
+					</div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
          <section>
             <div class="">
                <div class="equal-padding-T">
