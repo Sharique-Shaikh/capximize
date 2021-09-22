@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
    <head>
       <?php include('assets/includes/metatags.php'); ?>
       <title>About Us</title>
