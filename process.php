@@ -20,68 +20,28 @@ function contactus($pdo){
   $email=$_POST['email'];
   $mobileno=sanitize_data($_POST['mobileno']);
   $message=sanitize_data($_POST['message']);
-try{
+
 $data=array(
       'name' => $name,   
       'email' => $email,
       'mobileno'=>$mobileno,
       'message' =>$message
   );
+
 $sql="INSERT INTO `tbl_contactus`(`name`, `email`, `mobileno`, `message`) VALUES (:name, :email, :mobileno, :message)";
 $stmt= $pdo->prepare($sql);
-$stmt->execute($data);     
-  $response['error'] = "true";
-} catch(PDOExecption $e) { 
-      $dbh->rollback(); 
-      print "Error!: " . $e->getMessage() . "</br>"; 
-      $response['error'] = "false";
-  } 
- 
-//  header('location:https://www.greatplacetowork.in/register');
+
+
+if ($stmt->execute($data)) { 
+    $response['error'] = "1";
 }
-
-
-
-
-
-
-
-
-
-
-// function pastparticipating($pdo){
-//   $sql = "SELECT * FROM `wp_posts` where post_status = 'publish' and post_type='tablepress_table' and ID='7961'";
-//   $stmt= $pdo->prepare($sql);
-//   $stmt->execute();
-//   $result = $stmt->fetchAll();
-//   //print_r($result); die();
-//  echo json_decode($result[0]['post_content'],true);
-
-//  // echo "<pre>";
-//   //print_r($result[0]['post_content']);
-//   //echo json_decode();
-//   //echo trim($result[0]['post_content']);
-// }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+else{
+   $response['error'] = "2";
+}
+	
+echo json_encode($response);
+exit();
+}
 
 
 function sanitize_data($data)

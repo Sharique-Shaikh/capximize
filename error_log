@@ -1,0 +1,5 @@
+[09-Sep-2021 22:50:01 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function prinr_r() in /home/ngz17oerzhmh/public_html/process.php:30
+Stack trace:
+#0 /home/ngz17oerzhmh/public_html/process.php(11): contactus(Object(PDO))
+#1 {main}
+  thrown in /home/ngz17oerzhmh/public_html/process.php on line 30

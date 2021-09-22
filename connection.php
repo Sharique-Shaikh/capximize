@@ -1,8 +1,8 @@
 <?php  
 $hostname = "localhost";
-$username='root';
-$password='';
-$db='test';
+$username='capximize21';
+$password='Capximize#@123456';
+$db='capximize21';
 $charset = 'utf8mb4';
 $options = [
   PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
