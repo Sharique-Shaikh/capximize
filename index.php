@@ -80,7 +80,6 @@
                </div>
             </div>
          </section>
-
 		 <section class="opportunity-container bg-dark-color">
 		 <div class="container">
 		 <div class="equal-padding-T equal-padding-B">
